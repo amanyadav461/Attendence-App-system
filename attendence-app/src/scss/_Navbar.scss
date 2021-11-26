@@ -1,0 +1,23 @@
+header {
+  height: 3.41rem;
+  width: 100%;
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+
+    :first-child {
+      width: 20vw;
+      height: 3.41rem;
+      background-color: rgb(237, 28, 36);
+    }
+
+    :last-child {
+      width: 80vw;
+      height: 3.41rem;
+      background-color: rgb(183, 32, 46);
+    }
+  }
+}
